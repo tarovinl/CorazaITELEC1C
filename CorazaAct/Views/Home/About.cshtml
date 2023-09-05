@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var name = "Kevin Kyle C. Coraza";
+    var email = "kevinkyle.coraza.cics@ust.edu.ph";
+    var age = 20;
+}
+<title>Website About Us Page HTML CSS</title>
+<link rel="stylesheet" href="style.css" />
+
+<body>
+    <section class="about-me">
+        <div class="about">
+            <img src="~/images/profilepic.jpg" class="pic" />
+            <div class="text">
+                <h2>About Me</h2>
+                <h5>@name <span></br>@age Years Old</span></h5>
+                <p>Equipped with a skill set that is proficient in various platforms. Can be creative at different projects.<br /><br/>@email</p>
+                <div class="data">
+         
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
